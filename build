@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --rm -it -v $PWD:/workspace -w /workspace crystallang/crystal:0.32.1-alpine crystal build helloworld.cr --static
